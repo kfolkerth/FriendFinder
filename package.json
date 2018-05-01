@@ -2,7 +2,7 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "node and express app for matching like profiles based on survery results",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
