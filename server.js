@@ -12,8 +12,8 @@ app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
 
 //points to route files
-require("./routing/apiRoutes")(app);
-require("./routing/htmlRoutes")(app);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 //listener function
 app.listen(PORT, function() {
